@@ -10,6 +10,7 @@ from app import calc
 
 class CalcTests(SimpleTestCase):
 
+
     def test_add_number(self):
 
         res = calc.add(5, 6)
@@ -21,3 +22,4 @@ class CalcTests(SimpleTestCase):
         res = calc.sub(10, 4)
 
         self.assertEqual(res, 6)
+        
